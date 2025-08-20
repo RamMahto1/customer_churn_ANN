@@ -1,0 +1,4 @@
+2025-08-20 04:35:16,549 INFO  Dataset read sucessfully, shape:(1000, 12) 
+2025-08-20 04:35:16,549 INFO  read the data frame
+2025-08-20 04:35:16,569 INFO  split data into train test split
+2025-08-20 04:35:16,598 INFO  Data ingestion completed

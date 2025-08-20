@@ -1,0 +1,9 @@
+2025-08-20 04:40:50,533 INFO  Dataset read sucessfully, shape:(1000, 12) 
+2025-08-20 04:40:50,533 INFO  read the data frame
+2025-08-20 04:40:50,556 INFO  split data into train test split
+2025-08-20 04:40:50,577 INFO  Data ingestion completed
+2025-08-20 04:40:50,624 INFO  read data as data frame
+2025-08-20 04:40:50,624 INFO  obtaining preprocessor path obj
+2025-08-20 04:40:50,624 INFO  numerical features:['Age', 'Tenure', 'Usage Frequency', 'Support Calls', 'Payment Delay', 'Total Spend', 'Last Interaction']
+2025-08-20 04:40:50,624 INFO  categorical feature:['Gender', 'Subscription Type', 'Contract Length']
+2025-08-20 04:40:50,627 INFO  applying preprocessor path on training and testing dataset
