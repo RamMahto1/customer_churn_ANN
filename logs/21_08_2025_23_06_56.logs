@@ -1,0 +1,16 @@
+2025-08-21 23:07:04,662 INFO  Pipeline started.
+2025-08-21 23:07:04,677 INFO  Dataset read sucessfully, shape:(1000, 12) 
+2025-08-21 23:07:04,677 INFO  read the data frame
+2025-08-21 23:07:04,677 INFO  split data into train test split
+2025-08-21 23:07:04,706 INFO  Data ingestion completed.
+2025-08-21 23:07:04,737 INFO  read data as data frame
+2025-08-21 23:07:04,737 INFO  obtaining preprocessor path obj
+2025-08-21 23:07:04,737 INFO  numerical features:['Age', 'Tenure', 'Usage Frequency', 'Support Calls', 'Payment Delay', 'Total Spend', 'Last Interaction']
+2025-08-21 23:07:04,737 INFO  categorical feature:['Gender', 'Subscription Type', 'Contract Length']
+2025-08-21 23:07:04,737 INFO  applying preprocessor path on training and testing dataset
+2025-08-21 23:07:04,753 INFO  Data transformation completed.
+2025-08-21 23:07:10,729 WARNING  You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-21 23:07:10,807 INFO  Model saved at artifacts\model.h5
+2025-08-21 23:07:11,046 INFO  Model Accuracy: 0.855
+2025-08-21 23:07:11,046 INFO  Final Model Accuracy: 0.855
+2025-08-21 23:07:11,046 INFO  Pipeline completed successfully.

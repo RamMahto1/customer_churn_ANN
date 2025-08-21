@@ -1,0 +1,11 @@
+2025-08-21 23:03:52,342 INFO  Pipeline started.
+2025-08-21 23:03:52,358 INFO  Dataset read sucessfully, shape:(1000, 12) 
+2025-08-21 23:03:52,358 INFO  read the data frame
+2025-08-21 23:03:52,378 INFO  split data into train test split
+2025-08-21 23:03:52,409 INFO  Data ingestion completed.
+2025-08-21 23:03:52,436 INFO  read data as data frame
+2025-08-21 23:03:52,436 INFO  obtaining preprocessor path obj
+2025-08-21 23:03:52,436 INFO  numerical features:['Age', 'Tenure', 'Usage Frequency', 'Support Calls', 'Payment Delay', 'Total Spend', 'Last Interaction']
+2025-08-21 23:03:52,437 INFO  categorical feature:['Gender', 'Subscription Type', 'Contract Length']
+2025-08-21 23:03:52,439 INFO  applying preprocessor path on training and testing dataset
+2025-08-21 23:03:52,455 INFO  Data transformation completed.
